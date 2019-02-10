@@ -25,28 +25,38 @@
   border: 2px solid #000;
   border-radius: 5px;
 }
+.todoListMain .header button:focus {
+  outline: 0;
+}
 .todoListMain .header button:hover {
   background-color: #808080;
   border: 2px solid #808080;
   cursor: pointer;
 }
+
+.todoListMain .header button:active {
+  transform: scale(1.1);
+}
+
 .todoListMain .theList {
   list-style: none;
   padding-left: 0;
   width: 250px;
+  border: 2px black;
 }
 .todoListMain .theList li {
   color: #333;
-  background-color: #8bd6bb;
+  background-color: #808080;
   padding: 15px;
   margin-bottom: 15px;
+  border: 2px black;
   border-radius: 5px;
   list-style: none;
 }
 
 .todoListMain .theList li:hover {
   color: #333;
-  background-color: #e5f8e5;
+  transform: scale(1.05);
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 5px;

@@ -1,5 +1,7 @@
 # React To-Do List
 
+A very basic to-do list app to help learn React
+
 ## Functionality:
 
 - Display tasks
@@ -15,6 +17,7 @@
 - Add due dates for each task
 - Add warning (colour?) if due date is close
 - Ability to sort tasks (by date? alphabetically? in order of importance?)
+- Add more sophisticated styling
 
 ## How to run app:
 
